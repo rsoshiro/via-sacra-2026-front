@@ -24,6 +24,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [theme, setTheme] = useState<Theme>('light'); 
   const [fontSize, setFontSize] = useState(1.15);
+  const [touchStart, setTouchStart] = useState<{ x: number; y: number; time: number } | null>(null);
 
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -66,15 +67,77 @@ function App() {
     if (currentIndex > -1) setCurrentIndex(prev => prev - 1);
   };
 
-  const handleTapNavigation = (e: React.MouseEvent<HTMLElement> | React.TouchEvent<HTMLElement>) => {
+  const handleTouchStart = (e: React.TouchEvent<HTMLElement>) => {
     const target = e.target as HTMLElement;
     if (target.closest('button, a, [role="button"], input')) return;
-    const isTouch = 'changedTouches' in e.nativeEvent;
-    const x = isTouch
-      ? (e as React.TouchEvent<HTMLElement>).changedTouches[0]?.clientX
-      : (e as React.MouseEvent<HTMLElement>).clientX;
-    if (typeof x !== 'number') return;
-    if (isTouch) e.preventDefault();
+    const touch = e.touches[0];
+    if (touch) {
+      setTouchStart({
+        x: touch.clientX,
+        y: touch.clientY,
+        time: Date.now()
+      });
+    }
+  };
+
+  const handleTouchMove = (e: React.TouchEvent<HTMLElement>) => {
+    if (!touchStart) return;
+    const touch = e.touches[0];
+    if (!touch) return;
+    const deltaX = Math.abs(touch.clientX - touchStart.x);
+    const deltaY = Math.abs(touch.clientY - touchStart.y);
+    if (deltaX > deltaY && deltaX > 10) {
+      e.preventDefault();
+    }
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent<HTMLElement>) => {
+    if (!touchStart) return;
+    const target = e.target as HTMLElement;
+    if (target.closest('button, a, [role="button"], input')) {
+      setTouchStart(null);
+      return;
+    }
+    const touch = e.changedTouches[0];
+    if (!touch) {
+      setTouchStart(null);
+      return;
+    }
+    const deltaX = touch.clientX - touchStart.x;
+    const deltaY = touch.clientY - touchStart.y;
+    const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+    const duration = Date.now() - touchStart.time;
+    const main = e.currentTarget;
+    const rect = main.getBoundingClientRect();
+    const edgeRatio = 0.2;
+    const minZonePx = 44;
+    const zoneWidth = Math.max(rect.width * edgeRatio, minZonePx);
+    const leftZoneEnd = rect.left + zoneWidth;
+    const rightZoneStart = rect.right - zoneWidth;
+    if (distance < 10 && duration < 200) {
+      const x = touch.clientX;
+      if (x >= rect.left && x <= leftZoneEnd && currentIndex > -1) {
+        e.preventDefault();
+        handlePrev();
+      } else if (x >= rightZoneStart && x <= rect.right && currentIndex < data.secoes.length) {
+        e.preventDefault();
+        handleNext();
+      }
+    } else if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY) * 2) {
+      e.preventDefault();
+      if (deltaX > 0 && currentIndex > -1) {
+        handlePrev();
+      } else if (deltaX < 0 && currentIndex < data.secoes.length) {
+        handleNext();
+      }
+    }
+    setTouchStart(null);
+  };
+
+  const handleClickNavigation = (e: React.MouseEvent<HTMLElement>) => {
+    const target = e.target as HTMLElement;
+    if (target.closest('button, a, [role="button"], input')) return;
+    const x = e.clientX;
     const main = e.currentTarget;
     const rect = main.getBoundingClientRect();
     const edgeRatio = 0.2;
@@ -160,7 +223,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth pointer-events-auto" onClick={handleTapNavigation} onTouchEnd={handleTapNavigation}>
+      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth pointer-events-auto" onClick={handleClickNavigation} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd}>
         
         {/* CONTEÚDO DA CAPA */}
         {isCapa && (
@@ -252,7 +315,7 @@ function App() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-serif font-black uppercase tracking-tight">Obrigado por Rezar Conosco</h3>
                 <div className="h-1 w-16 bg-paroquia-teal mx-auto mb-6"></div>
-                <p className="font-bold text-lg opacity-90">{data.metadata.paroquia}</p>
+                <p className="font-bold text-lg opacity-90">Paróquia {data.metadata.paroquia}</p>
                 <p className="text-sm opacity-50 uppercase tracking-[0.3em]">{data.metadata.local} • {data.metadata.ano}</p>
               </div>
               
