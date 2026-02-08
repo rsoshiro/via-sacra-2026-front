@@ -246,7 +246,7 @@ function App() {
 
       {/* Navegação Inferior */}
       {!isFinal && (
-        <nav className={`z-30 shrink-0 p-4 pb-8 flex gap-3 ${s.header} border-t shadow-[0_-10px_30px_rgba(0,0,0,0.1)]`}>
+        <nav className={`z-30 shrink-0 p-4 pb-safe flex gap-3 ${s.header} border-t shadow-[0_-10px_30px_rgba(0,0,0,0.1)]`}>
           <button 
             onClick={handlePrev}
             className={`h-16 w-1/3 rounded-2xl flex flex-col items-center justify-center transition-all active:scale-95 border-2
@@ -276,7 +276,7 @@ function App() {
           <h2 className="font-serif font-bold text-xl uppercase tracking-tighter">Índice</h2>
           <button onClick={() => setSidebarOpen(false)} className="p-3 rounded-full active:bg-black/10"><Icons.Close /></button>
         </div>
-        <div className="flex-1 overflow-y-auto p-4 space-y-2">
+        <div className="flex-1 overflow-y-auto pt-4 px-4 pb-safe-sidebar space-y-2">
           <button onClick={() => { setCurrentIndex(-1); setSidebarOpen(false); }} className={`w-full text-left p-4 rounded-xl font-bold text-sm ${isCapa ? 'bg-[#8E24AA] text-white' : 'opacity-70'}`}>CAPA</button>
           {data.secoes.map((section, idx) => (
             <button
