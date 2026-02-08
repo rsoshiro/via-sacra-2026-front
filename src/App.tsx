@@ -52,7 +52,7 @@ function App() {
 
   if (loading || !data) {
     return (
-      <div className="flex h-screen items-center justify-center bg-slate-50 dark:bg-slate-900">
+      <div className="flex h-[100dvh] items-center justify-center bg-slate-50 dark:bg-slate-900">
         <div className="animate-spin h-10 w-10 border-4 border-paroquia-purple border-t-transparent rounded-full"></div>
       </div>
     );
@@ -64,6 +64,19 @@ function App() {
 
   const handlePrev = () => {
     if (currentIndex > -1) setCurrentIndex(prev => prev - 1);
+  };
+
+  const handleTapNavigation = (e: React.MouseEvent<HTMLElement>) => {
+    const target = e.target as HTMLElement;
+    if (target.closest('button, a, [role="button"], input')) return;
+    const x = e.clientX;
+    const width = window.innerWidth;
+    const edgeRatio = 0.15;
+    if (x < width * edgeRatio && currentIndex > -1) {
+      handlePrev();
+    } else if (x > width * (1 - edgeRatio) && currentIndex < data.secoes.length) {
+      handleNext();
+    }
   };
 
   const themeStyles = {
@@ -90,7 +103,7 @@ function App() {
   const isFinal = currentIndex === data.secoes.length;
 
   return (
-    <div className={`flex flex-col h-screen overflow-hidden ${s.bg} ${s.text} transition-colors duration-300 font-sans`}>
+    <div className={`flex flex-col h-[100dvh] overflow-hidden ${s.bg} ${s.text} transition-colors duration-300 font-sans`}>
       
       {/* Header */}
       <header className={`z-20 shrink-0 border-b ${s.header} shadow-sm px-4 py-3`}>
@@ -137,7 +150,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth">
+      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth" onClick={handleTapNavigation}>
         
         {/* CONTEÚDO DA CAPA */}
         {isCapa && (
@@ -249,7 +262,7 @@ function App() {
         <nav className={`z-30 shrink-0 p-4 pb-safe flex gap-3 ${s.header} border-t shadow-[0_-10px_30px_rgba(0,0,0,0.1)]`}>
           <button 
             onClick={handlePrev}
-            className={`h-16 w-1/3 rounded-2xl flex flex-col items-center justify-center transition-all active:scale-95 border-2
+            className={`h-16 w-1/3 rounded-2xl flex flex-col items-center justify-center transition-all active:scale-95 border-2 cursor-pointer
               ${theme === 'dark' ? 'bg-white/5 border-white/10' : 'bg-slate-50 border-slate-200'}`}
           >
             <Icons.ChevronLeft />
@@ -258,7 +271,7 @@ function App() {
 
           <button 
             onClick={handleNext}
-            className={`h-16 w-2/3 rounded-2xl flex items-center justify-center gap-3 font-black uppercase tracking-widest transition-all active:scale-[0.98] shadow-xl
+            className={`h-16 w-2/3 rounded-2xl flex items-center justify-center gap-3 font-black uppercase tracking-widest transition-all active:scale-[0.98] shadow-xl cursor-pointer
               ${theme === 'dark' ? 'bg-[#E040FB] shadow-[#E040FB]/20' : 'bg-[#8E24AA] shadow-[#8E24AA]/30'} text-white`}
           >
             <span className="text-lg">{isCapa ? "Iniciar" : "Próxima"}</span>
