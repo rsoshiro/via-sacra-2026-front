@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "titulo": "Via Sacra",
+    "ano": 2026,
+    "periodo": "Quaresma",
+    "tema": "A esperança no caminho do calvário",
+    "paroquia": "Mãe da Divina Providência",
+    "local": "Londrina",
+    "capa_path": "assets/images/capa_original.webp",
+    "logo_path": "assets/images/logo_paroquia.webp"
+  },
+  "secoes": [
+    {
+      "id": "oracao_inicial",
+      "titulo": "ORAÇÃO INICIAL",
+      "paginas_originais": [4, 5],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Em nome do Pai e do Filho e do Espírito Santo." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Dirigente", "texto": "Irmãos e irmãs, a paz de Jesus Cristo esteja conosco!" },
+        { "quem": "Todos", "texto": "Bendito seja o Senhor que nos reuniu na sua paz!" },
+        { "quem": "Leitor 1", "texto": "Lembra-te, Senhor, de tua Igreja, fruto do teu grande amor, que cada dia necessita de tuas graças e compaixão. Concede-lhe sempre a tua misericórdia e converte-a para que ela seja verdadeiro sinal de luz." },
+        { "quem": "Todos", "texto": "Ó Pai, que quiseste salvar os homens com a morte do teu Filho na Cruz, concede-nos que, tendo conhecido na terra o teu mistério de amor, sejamos tuas testemunhas, por palavras e obras, junto de todos aqueles que nos fazes encontrar na vida diária. Por Cristo, nosso Senhor. Amém." }
+      ]
+    },
+    {
+      "id": "estacao_01",
+      "titulo": "PRIMEIRA ESTAÇÃO",
+      "subtitulo": "JESUS É CONDENADO À MORTE",
+      "imagem": "assets/images/estacao_01.webp",
+      "paginas_originais": [6, 7, 8, 9, 10],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "\"Pilatos saiu ao encontro dos judeus e lhes disse: 'Eu não encontro nele nenhuma culpa. Mas existe um costume entre vocês: que eu lhes solte alguém na época da Páscoa. Vocês querem que eu lhes solte o rei dos judeus?' Então eles gritaram de novo: 'Ele não! Solte Barrabás'. Ora, Barrabás era um bandido. Então Pilatos lhes entregou Jesus para ser crucificado\" (Jo 18,38a-40.19,14b.16a)." },
+        { "quem": "Todos", "quem_extra": "Deus santo", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Estamos diante de Jesus, o injustiçado! Jesus é um exemplo claro de que o mal do coração humano é capaz de submeter um inocente à acusação injusta. Mas o sentido desta entrega vai para além dos termos judiciais, ela atinge um objetivo maior: Jesus oferece sua vida para a salvação do mundo. Jesus quer apostar a sua juventude em uma causa verdadeira e fazer da cruz um altar onde o amor encontrará o seu ápice. Ele será a vítima, o cordeiro imolado. Ele, sendo justo, morrerá pelos pecadores; morrerá para nos conduzir a Deus." },
+        { "quem": "Todos", "texto": "Prova de amor maior não há que doar a vida pelo irmão!" },
+        { "quem": "Dirigente", "texto": "Deus, nosso Pai, ajuda-nos a reconhecer o amor de teu Filho. Queremos amá-lo incondicionalmente, ter em nós os mesmos sentimentos de compaixão e de amor que ele demonstrou em sua entrega. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "A morrer crucificado, teu Jesus é condenado por teus crimes, pecador. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus!" }
+      ]
+    },
+    {
+      "id": "estacao_02",
+      "titulo": "SEGUNDA ESTAÇÃO",
+      "subtitulo": "JESUS CARREGA A CRUZ",
+      "imagem": "assets/images/estacao_02.webp",
+      "paginas_originais": [11, 12, 13, 14, 15],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Ele carregou os nossos pecados em seu corpo, no madeiro, a fim de que, mortos para os pecados, vivamos para a justiça. Por suas feridas vocês foram curados, pois eram como ovelhas desgarradas, mas agora voltaram ao Pastor e Guardião de suas vidas\" (1Pd 2,24-25)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Quando Jesus advertiu os discípulos que, para segui-lo, era necessária a renúncia de si mesmo e tomar a sua cruz, ele não estava falando em uma categoria metafórica. Talvez não passava pela cabeça dos discípulos que ele verdadeiramente abraçaria uma cruz. Mas, de fato, o próprio Deus foi submetido a um madeiro e pediu que o imitássemos. Eis, pois, a missão de todos os cristãos: carregar a sua cruz, dia após dia, e imitar o exemplo de Cristo. Isso significa compadecer-se dele e unir-se a ele neste mesmo sofrimento; repetindo sempre: \"fui morto na cruz com Cristo\" (GI 2,19). A cruz é sinal de abandono e desprezo dos pecados e é, também, sinal de vitória para o cristão." },
+        { "quem": "Todos", "texto": "Prova de amor maior não há que doar a vida pelo irmão!" },
+        { "quem": "Dirigente", "texto": "Deus, nosso Pai, que nós tenhamos a coragem de sempre olhar para a nossa cruz como sinal de esperança. Queremos compreender verdadeiramente o nosso sofrimento e oferecê-lo a ti como verdadeira oblação por nossos pecados e pelos do mundo inteiro. Ajuda-nos a ser fortes na provação e coerentes com o exemplo. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Com a cruz é carregado e do peso acabrunhado. Vai morrer por teu amor. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_03",
+      "titulo": "TERCEIRA ESTAÇÃO",
+      "subtitulo": "JESUS CAI PELA PRIMEIRA VEZ",
+      "imagem": "assets/images/estacao_03.webp",
+      "paginas_originais": [16, 17, 18, 19, 20],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "\"Venham a mim todos vocês, que andam cansados e curvados pelo peso do fardo, e eu lhes darei descanso. Carreguem minha carga e aprendam de mim, porque sou manso e humilde de coração. E vocês encontrarão descanso para suas vidas. Pois minha carga é suave e o meu fardo é leve\" (Mt 11,28-30)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Jesus cai. Quanto peso é colocado sobre nosso Senhor: são as feridas suas e da humanidade, o peso da cruz, a estrada a subir, em mau estado, os pecados. Imaginemos o longo caminho que aquele jovem enfrentou, a vergonha e a humilhação pelas quais passou. Mas não foi só isto que o fez cair, talvez o peso maior esteja em não ser reconhecido pelos homens, que até hoje não o veem verdadeiramente como Deus. Jesus se tornou um frágil homem, que tropeça e cai. Mas os homens deveriam vê-lo como aquele que cai para nos levantar, que tira todo o peso de nossas costas e o coloca sobre si; dando a nós um jugo muito leve, diferente do dele." },
+        { "quem": "Todos", "texto": "A tua ternura, Senhor, vem me abraçar e a tua bondade infinita me perdoar, vou ser o teu seguidor e te dar o meu coração; eu quero sentir o calor de tuas mãos." },
+        { "quem": "Dirigente", "texto": "Deus, nosso Pai protetor, não permitas que caiamos em nossas fraquezas, sê para nós luz e força. Mas se cairmos em tentação, ajuda-nos a sair deste mal que tanto ofende a nosso Senhor Jesus Cristo, para que sejamos verdadeiras testemunhas do seu amor pelo mundo. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Pela cruz tão oprimido, cai Jesus desfalecido pela tua salvação. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_04",
+      "titulo": "QUARTA ESTAÇÃO",
+      "subtitulo": "JESUS ENCONTRA SUA MÃE",
+      "imagem": "assets/images/estacao_04.webp",
+      "paginas_originais": [21, 22, 23, 24, 25],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Junto à cruz estava sua mãe, a irmã de sua mãe, Maria de Cléofas, e Maria Madalena. Quando Jesus viu sua mãe e, ao lado dela, o discípulo que ele amava, disse à sua mãe: 'Mulher, eis aí o seu filho'. Depois disse ao discípulo: 'Eis a sua mãe'. E desde essa hora o discípulo a recebeu em casa\" (Jo 19,25-27)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Na subida para o Calvário, no meio da multidão, Jesus entrevê sua mãe. Há entre eles uma troca de olhares, eles se compreendem, se comunicam e se consolam. Maria vê o seu filho sofrer por todos os homens: os de ontem, os de hoje e os de amanhã. Ela também sofre com as dores do Filho. Existe entre os dois uma relação muito próxima. Maria compartilha do grande amor que Jesus tem pela humanidade. Jesus é o Filho do Homem, Maria é a sua mãe, mãe da humanidade." },
+        { "quem": "Todos", "texto": "No céu, no céu, com minha mãe estarei." },
+        { "quem": "Dirigente", "texto": "Deus, Pai misericordioso, que escolheste Maria para acompanhar o teu Filho durante todo o seu sofrimento, ajuda-nos a ter com o Cristo uma relação de amor e de empatia. Que sejamos consoladores dos irmãos e, a exemplo de Maria, anunciemos a sua salvação para toda a humanidade, sendo consoladores para todos que precisam de nosso apoio. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "De Maria lacrimosa, no encontro lastimoso, vê a imensa compaixão. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_05",
+      "titulo": "QUINTA ESTAÇÃO",
+      "subtitulo": "JESUS É AJUDADO POR SIMÃO CIRENEU",
+      "imagem": "assets/images/estacao_05.webp",
+      "paginas_originais": [26, 27, 28, 29],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Passava por aí certo Simão de Cirene, pai de Alexandre e de Rufo. Ele vinha do campo, e o obrigaram a carregar a cruz de Jesus\" (Mc 15,21)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Ο Cireneu é a pessoa que nos faz recordar ainda os inúmeros rostos de pessoas que se solidarizaram conosco nos momentos em que a cruz se torna pesada. Este auxílio dado a nosso Senhor foi para ele e é para nós sinal de que devemos nos deixar ajudar, ensinar que não somos seres superpoderosos, mas que temos necessidades. Serve-nos também como exemplo para que sejamos cireneus para todos os irmãos necessitados de fé e de ajuda." },
+        { "quem": "Todos", "texto": "Perdão, meu Jesus, perdão, Deus de amor! Perdão, Deus clemente; perdão, meu Senhor!" },
+        { "quem": "Dirigente", "texto": "Ó Jesus, que tiveste a ajuda do Cireneu, sê o nosso auxílio nas adversidades do mundo, e quando estivermos cansados, estende a nós a tua mão. Sê para nós a força impulsionadora para ajudar os nossos irmãos que sofrem e carregam suas pesadas cruzes. Nós te pedimos hoje e sempre." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Em extremo, desmaiado, deve auxílio tão cansado receber do Cireneu. Pela Virgem dolorosa, vossa mãe tão piedosa perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_06",
+      "titulo": "SEXTA ESTAÇÃO",
+      "subtitulo": "VERÔNICA ENXUGA O ROSTO DE JESUS",
+      "imagem": "assets/images/estacao_06.webp",
+      "paginas_originais": [30, 31, 32, 33, 34],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Meu coração medita em ti: 'Procurem a minha face!' É a tua face, Senhor, que eu procuro. Não escondas de mim a tua face\" (SI 27,8-9a)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Verônica, ao ver aquele homem maltratado, intui quem ele é. Por isso, ela sofre ao vê-lo sofrer. Ela não se deixa amedrontar com a brutalidade e a indiferença dos soldados. É a imagem da mulher bondosa que, perante o conflito e escuridão dos corações, mantém a coragem da bondade e caridade. Inicialmente, Verônica apenas enxergava um rosto maltratado e sofrido pela dor. Mas, no seu ato de amor imprime no seu coração a verdadeira imagem de Jesus: o rosto humano, coberto de sangue e de feridas, ela vê o rosto de Deus e da sua bondade que nos acompanha mesmo no sofrimento mais profundo. Somente com o coração é que podemos ver Jesus." },
+        { "quem": "Todos", "texto": "Ó vos, ó vos, vós que por aqui passais, olhai, dizei, quem neste mundo sofreu mais?" },
+        { "quem": "Dirigente", "texto": "Ó Deus, que és consolação dos oprimidos, dá-nos a inquietação do coração que procura a tua face. Não permitas que o nosso coração seja frívolo e veja apenas a superficialidade das coisas e das pessoas. Concede-nos aquela generosidade e pureza que nos tornam capazes de ver a tua presença no mundo e no outro. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "O seu rosto ensanguentado, por Verônica enxugado, contemplemos com amor. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_07",
+      "titulo": "SÉTIMA ESTAÇÃO",
+      "subtitulo": "JESUS CAI PELA SEGUNDA VEZ",
+      "imagem": "assets/images/estacao_07.webp",
+      "paginas_originais": [35, 36, 37, 38, 39],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Todos os que me detestam cochicham juntos contra mim. Eles, contra mim, planejam o mal: 'Algo perverso o contagiou, e agora, estendido na cama, não voltará a se levantar!' Até o amigo no qual eu mais confiava, e que comia do meu pão, ergueu contra mim o calcanar\" (SI 41,8-10)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Jesus é o rosto do homem das dores, que assumiu todas as nossas angústias mortais! O seu rosto é reflexo de cada pessoa humilhada e ofendida, doente e atribulada, abandonada e desprezada. Derramando o seu sangue, ele nos revela até onde vai o amor do Pai por nós e nos livra da escravidão do pecado e da morte; ele destrói o egoísmo humano e enxuga as lágrimas de aflição que brotam dos nossos medos e inseguranças. Tudo isso que Jesus passou é desgastante; sua segunda queda nos mostra quão pesada e árdua é a sua missão. Ao cair, Jesus nos mostra as nossas quedas e infidelidades. Contudo, sejamos como ele, fiéis ao projeto de Deus e livres para abraçar o ministério dado no batismo." },
+        { "quem": "Todos", "texto": "Quanto a nós devemos gloriar-nos na cruz de nosso Senhor Jesus Cristo. Que é nossa salvação, nossa vida, nossa esperança de ressurreição, e pela qual fomos salvos e libertos." },
+        { "quem": "Dirigente", "texto": "Senhor Jesus Cristo, carregaste o nosso peso e continuas a carregá-lo. É o peso da nossa infidelidade que te faz cair. Mas tu te levantas e perdoas nosso descompromisso. Por isso, nós te pedimos, ergue-nos, para podermos erguer também os outros. Concede-nos esperança em meio a toda esta escuridão. Nós te pedimos hoje e sempre." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Outra vez desfalecido, pelas dores abatido, cai por terra o Salvador. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_08",
+      "titulo": "OITAVA ESTAÇÃO",
+      "subtitulo": "JESUS ENCONTRA AS MULHERES DE JERUSALÉM QUE CHORAM POR ELE",
+      "imagem": "assets/images/estacao_08.webp",
+      "paginas_originais": [40, 41, 42, 43, 44],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "\"Grande multidão do povo seguia a Jesus, e também mulheres, que batiam no peito e se lamentavam por causa dele. Mas Jesus voltou-se para elas e disse: 'Filhas de Jerusalém, não chorem por mim. Chorem por vocês mesmas e por seus filhos' (Lc 23,27-9).\"" },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "As palavras de Jesus para as mulheres não são apenas de uma advertência, mas querem mostrar a seriedade dos perigos e a seriedade do mal e do pecado. Por isso, não se pode continuar a banalizar o mal, principalmente quando vemos a imagem do Senhor que sofre. É também para nós, que ele fala: “não chorem por mim. Chorem por vocês mesmos\". De nada serve lamentar, por palavras e sentimentalmente, os sofrimentos deste mundo, se a nossa vida continua sempre igual. Jesus quer de nós uma verdadeira conversão!" },
+        { "quem": "Todos", "texto": "Ninguém pode se orgulhar a não ser nisto: nos orgulhamos na cruz de Jesus Cristo! Nele está a vida e a ressurreição. Nele, a esperança de libertação!" },
+        { "quem": "Dirigente", "texto": "Ó Jesus, tu que falaste sobre a penitência e o juízo para as mulheres que choravam, ajuda-nos a sair da banalização do mal. Faz com que não nos limitemos apenas a caminhar ao teu lado, oferecendo simplesmente palavras de compaixão. Converte-nos e dá-nos uma vida nova, para que sejamos ramos vivos, ligados a ti, a videira verdadeira, e que produzamos frutos para a vida eterna. Nós te pedimos hoje e sempre." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Das mulheres piedosas, de Sião filhas chorosas. É Jesus Consolador. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_09",
+      "titulo": "NONA ESTAÇÃO",
+      "subtitulo": "JESUS CAI PELA TERCEIRA VEZ",
+      "imagem": "assets/images/estacao_09.webp",
+      "paginas_originais": [45, 46, 47, 48, 49],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "\"Pois, em Cristo, Deus estava reconciliando o mundo consigo, não levando em conta as faltas das pessoas, e pondo em nós a palavra da reconciliação. Somos embaixadores de Cristo, e é como se Deus exortasse por meio de nós. Em nome de Cristo, pedimos: Reconciliem-se com Deus\" (2Cor 5,19-21)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Ο caminho até o Calvário parece ser breve, mas a fraqueza de Jesus é extrema. A cada passo suas forças são deixadas para trás com o sangue e o suor. Jesus está esgotado não só fisicamente, mas também no espírito. Esta queda nos faz pensar nas muitas pessoas que se afastam de Cristo, que estão errantes no secularismo sem Deus. Quanta soberba e quanta autossuficiência! Queremos, neste caminho da cruz, oferecer a nossa vida, as nossas fraquezas, a nossa miséria. Queremos ter forças para nos levantar e retomar o caminho, assim como fez Jesus. Assumirmos a caminhada cristã com coragem e fidelidade indo contra a corrente do mundo corrompido." },
+        { "quem": "Todos", "texto": "Eu vim para que todos tenham vida, que todos tenham vida plenamente." },
+        { "quem": "Dirigente", "texto": "Ó Jesus, tu que caíste em meio à dor e à fraqueza, ajuda-nos a reconhecer a falência das nossas presunções; comunicar o teu exemplo a todos os nossos irmãos, e levantarmos do abismo da alienação. Ensina-nos a anunciar o teu nome para todos os que o rejeitam e, assim, quebrarmos o jugo de toda escravidão. Sê para nós consolo nas quedas e auxílio nos sofrimentos. Nós te pedimos hoje e sempre." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Cai terceira vez prostrado pelo peso redobrado dos pecados e da cruz. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_10",
+      "titulo": "DÉCIMA ESTAÇÃO",
+      "subtitulo": "JESUS É DESPOJADO DE SUAS VESTES",
+      "imagem": "assets/images/estacao_10.webp",
+      "paginas_originais": [50, 51, 52, 53, 54],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "\"Chegaram ao lugar chamado Gólgota, que significa lugar da Caveira. E lhe deram para beber vinho misturado com fel. Ele provou, mas não quis beber. Depois de crucificar Jesus, repartiram suas roupas tirando a sorte. E aí sentaram, montando guarda\" (Mt 27,33-36)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Jesus é despojado das suas vestes. Há quem pense que a roupa confere ao homem a sua posição social; dá-lhe o seu lugar na sociedade, fá-lo sentir-se alguém. Ser despojado em público significa que Jesus já não é ninguém, não tem dignidade, nada mais é que um marginalizado, desprezado por todos. Quantos são os despojados hoje em nossa sociedade, em nossas comunidades e em nosso meio? Outro aspecto do despojamento recorda-nos também a expulsão do paraíso: o homem ficou sem o esplendor de Deus, que agora está ali, nu e exposto, desnudado e envergonhado de sua própria situação." },
+        { "quem": "Todos", "texto": "Prova de amor maior não há, que doar a vida pelo irmão." },
+        { "quem": "Dirigente", "texto": "Senhor Jesus, foste despojado das tuas vestes, exposto à desonra, expulso da sociedade. Ajuda-nos a assumir os sofrimentos e as necessidades dos mais pobres. Ensina-nos o profetismo daqueles que amam a verdade. Concede-nos um respeito profundo pelas pessoas em todas as fases da sua existência e em todas as situações humanas onde as encontrarmos. Dá-nos a veste luminosa da tua graça para que possamos apresentá-la ao mundo. Nós te pedimos hoje e sempre." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Das suas vestes despojado, por algozes maltratado. Eu vos vejo, meu Jesus. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_11",
+      "titulo": "DÉCIMA PRIMEIRA ESTAÇÃO",
+      "subtitulo": "JESUS É PREGADO NA CRUZ",
+      "imagem": "assets/images/estacao_11.webp",
+      "paginas_originais": [55, 56, 57, 58, 59],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Foi aí que crucificaram Jesus, e com ele outros dois homens, um de cada lado, e Jesus no meio. Pilatos também mandou fazer uma inscrição e colocá-la no alto da cruz. Nela estava escrito: 'Jesus Nazareno, Rei dos judeus'\" (Jo 19,18-19)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "“Fixemos bem aquele homem crucificado entre a terra e o céu, contemplamo-lo com um olhar mais profundo, e descobriremos que a cruz não é o sinal da vitória da morte, do pecado, do mal, mas o sinal luminoso do amor, mais ainda, da imensidão do amor de Deus, daquilo que não teríamos jamais podido pedir, imaginar ou esperar: Deus debruçou-se sobre nós, abaixou-se até chegar ao ângulo mais escuro da nossa vida, para nos estender a mão e atrair-nos a si, levar-nos até ele. A cruz nos fala do amor supremo de Deus e nos convida a renovar, hoje, a nossa fé na força deste amor, a crer que em cada situação da nossa vida, da história, do mundo, Deus é capaz de vencer a morte, o pecado, o mal, e dar-nos uma vida nova, ressuscitada\" (Bento XVI)." },
+        { "quem": "Todos", "texto": "Eu me entrego, Senhor, em tuas mãos e espero pela tua salvação." },
+        { "quem": "Dirigente", "texto": "Deus todo-poderoso, faze com que possamos olhar para Jesus crucificado, para que ele ilumine o nosso coração, e nunca permita que abandonemos o seguimento da cruz. Pedimos que nos ensines a deixa morrer em nós o “homem velho\", que está intimamente ligado ao egoísmo, ao mal, ao pecado, e que nos tornes “homens novos\", para sermos mulheres e homens santos, transformados e animados pelo teu doce amor. Tudo isso te pedimos, por Cristo nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém." },
+        { "quem": "Canto", "texto": "Foi Jesus na cruz pregado, insultado, blasfemado com cegueira e com furor. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_12",
+      "titulo": "DÉCIMA SEGUNDA ESTAÇÃO",
+      "subtitulo": "JESUS MORRE NA CRUZ",
+      "imagem": "assets/images/estacao_12.webp",
+      "paginas_originais": [60, 61, 62, 63, 64],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Sabendo que tudo estava realizado, Jesus disse, para que se cumprisse a Escritura: 'Tenho sede'. Havia por aí um jarro cheio de vinagre. Amarraram numa vara uma esponja ensopada de vinagre, e a levaram até a boca de Jesus. Quando tomou o vinagre, disse: 'Tudo está consumado'. E, inclinando a cabeça, entregou o espírito\" (Jo 19,28-30)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "A morte na cruz, para os que não acreditam em Cristo, parece o sinal do fracasso. Porém, ela se tornou símbolo do amor e símbolo da vitória; nela, que deixa o Senhor decadente, na verdade já brilha a luz de sua ressurreição. Pois é no alargamento do conceito de poder, agregado o sentido de esvazimento, de impotência, que Deus se revela o Todo-poderoso. Nós deveríamos agir assim: quando passarmos pelas provas, sofrimentos, tribulações, olhemos para a cruz de Cristo! Nela encontraremos a coragem para prosseguir no caminho. Basta que lembremos as palavras de São Paulo: “Quem nos separará do amor de Cristo? A tribulação, a angústia, a perseguição, a fome, a nudez, o perigo, a espada? Mas, em todas essas coisas, somos mais que vencedores graças àquele que nos amou!\" (Rm 8,35.37)." },
+        { "quem": "Todos", "texto": "Eu me entrego, Senhor, em tuas mãos e espero pela tua salvação." },
+        { "quem": "Dirigente", "texto": "Senhor Jesus Cristo, na hora da tua morte o sol escureceu, foste pregado na cruz sem piedade. Pedimos-te que nos ajudes a combater o sofrimento desmedido, que faz o rosto de Deus obscurecer e tornar-se irreconhecível pelos que sofrem com o pecado. Ajuda-nos a ver na cruz o sinal redentor, e que te reconheçamos. Tu és aquele que sofre e que ama, e que é elevado para nos salvar. Ajuda-nos a crer na tua redenção e no teu amor. Tu que vives e reinas com o Pai, na unidade do Espírito Santo." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Por meus crimes padecestes, meu Jesus, por mim morrestes. Oh! Que grande é minha dor. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_13",
+      "titulo": "DÉCIMA TERCEIRA ESTAÇÃO",
+      "subtitulo": "JESUS É DESCIDO DA CRUZ",
+      "imagem": "assets/images/estacao_13.webp",
+      "paginas_originais": [65, 66, 67, 68, 69],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Quando era já o final da tarde, sendo o Dia da Preparação, ou seja, véspera do sábado, chegou José de Arimateia, um respeitado membro do Conselho. Ele também esperava o Reino de Deus. Corajosamente, entrou onde Pilatos estava e lhe pediu o corpo de Jesus\" (Mc 15,42-43)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Maria vê seu Filho morrer. Ali está uma mescla de certeza e de dor. No Calvário está presente uma família que vive e sofre a separação suprema. Esta mãe e este Filho nos estão a conceder um dom único, irrepetível. De fato, neles, encontramos a capacidade de dilatar o nosso coração e abrir o nosso horizonte à dimensão universal. O Deus escondido permanece, em todo o caso, o Deus vivo e próximo. O Senhor morto permanece o Senhor e nosso Salvador, mesmo na noite da morte. À Igreja, a sua nova família, começa a se formar em Cristo, aos pés da cruz, por meio do seu sacrifício, e no colo de Maria." },
+        { "quem": "Todos", "texto": "E mataram a Jesus de Nazaré, e no meio de ladrões puseram a sua cruz, mas o mundo ainda se lembra de Jesus, que tinha tanto amor." },
+        { "quem": "Dirigente", "texto": "Ó Jesus, desceste à escuridão da morte, mostra-nos que a fé não está completamente morta. Faz com que, na hora da escuridão, reconheçamos a ti. Não nos deixes sozinhos quando tendemos a desanimar. Dá-nos uma fidelidade, que resista no desânimo, e um amor que te acolha no momento mais extremo da tua necessidade, como fez a tua Mãe, que te abraçou de novo ao ser decido da cruz. Tudo isso pedimos a ti, que vives e reinas com o Pai, na unidade do Espírito Santo." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Do madeiro vos tiraram e à mãe vos entregaram, com que dor e compaixão! Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus." }
+      ]
+    },
+    {
+      "id": "estacao_14",
+      "titulo": "DÉCIMA QUARTA ESTAÇÃO",
+      "subtitulo": "JESUS É SEPULTADO",
+      "imagem": "assets/images/estacao_14.webp",
+      "paginas_originais": [70, 71, 72, 73, 74],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Pegaram então o corpo de Jesus e o enrolaram com lençóis junto com os perfumes, da maneira como os judeus costumam sepultar. No lugar onde Jesus fora crucificado havia um jardim, onde estava um túmulo no qual ninguém ainda tinha sido sepultado\" (Jo 19,40-41)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "Um profundo silêncio envolve o mundo. Naquele momento, impera um sentimento de solidão desconhecida e angústia. Os discípulos e Maria sentem-se perdidos, não sabem que fazer, nem como se comportar. Nada mais lhes resta que consolar e encorajar um ao outro, permanecer juntos. No momento da deposição, começa a se realizar a mensagem de Jesus: \"Se o grão de trigo, ao cair na terra, não morrer, ficará sozinho. Mas, se morrer, produzirá muito fruto\" (Jo 12, 24). Jesus é o grão de trigo que morre. Deste grão posto na terra surgirão belíssimos frutos, que triunfarão e alimentarão a muitos, em suas casas, escolas e sociedade. Ensinarão a verdade do amor e ajudarão na contemplação do Senhor." },
+        { "quem": "Todos", "texto": "Onde reina o amor, fraterno amor, Deus aí está!" },
+        { "quem": "Dirigente", "texto": "Senhor Jesus Cristo, na sepultura fizeste tua a morte do grão de trigo, que produz fruto ao longo de todos os tempos até à eternidade. Ajuda-nos a amar e vencer, cada vez mais, o mistério de tua paixão. Faz com que possamos nos alegrar com a esperança da ressurreição e que possamos levar esta boa notícia pelo mundo, sendo tuas testemunhas. Tudo isso pedimos a ti, que vives e reinas com o Pai, na unidade do Espírito Santo." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "No sepulcro vos puseram, mas os homens tudo esperam do mistério da paixão. Pela Virgem dolorosa, vossa mãe tão piedosa, perdoai-me, meu Jesus. Meu Jesus, por vossos passos, recebei em vossos braços a mim, pobre pecador." }
+      ]
+    },
+    {
+      "id": "estacao_15",
+      "titulo": "DÉCIMA QUINTA ESTAÇÃO",
+      "subtitulo": "JESUS RESSUSCITA",
+      "imagem": "assets/images/estacao_15.webp",
+      "paginas_originais": [75, 76, 77, 78, 79],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Nós vos adoramos, ó Cristo, e vos bendizemos." },
+        { "quem": "Todos", "texto": "Porque, pela vossa santa cruz, remistes o mundo!" },
+        { "quem": "Leitor 1", "texto": "“Passado o sábado, ao raiar do primeiro dia da semana, Maria Madalena e a outra Maria foram ver o sepulcro. Eis que houve um grande terremoto. Porque um anjo do Senhor desceu do céu, aproximou-se, rolou a pedra e sentou-se sobre ela. Sua aparência era como um relâmpago, e sua roupa era branca como a neve. O anjo disse às mulheres: 'Não tenham medo! Porque eu sei que estão procurando Jesus, o Crucificado. Ele não está aqui, pois ressuscitou, como havia dito. Venham ver o lugar onde ele estava'\" (Mt 28,1-3.5-6)." },
+        { "quem": "Todos", "texto": "Deus santo, Deus forte, Deus imortal, tende piedade de nós!" },
+        { "quem": "Leitor 2", "texto": "“Pelas amarguras suportadas, ele verá a luz e ficará saciado. Pelo seu conhecimento, o meu servo justo devolverá a muitos a verdadeira justiça, pois carregou o pecado deles” (Is 53,11). Chegou o momento da resposta, Jesus não ficou cativo da vontade humana, a sua ressurreição é sinal de vitalidade para o mundo e para todos aqueles que nele creem. Jesus não se submete ao desejo humano de destruir o seu nome, mas faz florescer do seu sacrifício a beleza eterna, que se tornou promessa para todos os seus seguidores, que deixam a sua vida de pecado e abraçam um caminho de salvação." },
+        { "quem": "Todos", "texto": "Ressuscitei, Senhor. Contigo estou, Senhor. Teu grande amor, Senhor, de mim se recordou, tua mão me levantou, me libertou!" },
+        { "quem": "Dirigente", "texto": "Ó Deus, que choraste a morte do teu Filho, mostra-nos como proceder na contemplação do mistério da ressurreição, para que acolhamos verdadeiramente essa realidade celeste que se fez presente em meio aos homens. Jesus morre e ressuscita para restituir ao homem a dignidade dos céus; queremos, por meio deste grande gesto de amor, ser merecedores de estar contigo eternamente. Concede-nos tudo isso, ó Pai, por Cristo, nosso Senhor." },
+        { "quem": "Todos", "texto": "Amém!" },
+        { "quem": "Canto", "texto": "Vitória, tu reinarás, ó cruz, tu nos salvarás! Brilhando sobre o mundo, que vive sem tua luz. Tu és um sol fecundo de amor e de paz, ó cruz!" }
+      ]
+    },
+    {
+      "id": "oracao_final",
+      "titulo": "ORAÇÃO FINAL",
+      "paginas_originais": [80, 81],
+      "conteudo": [
+        { "quem": "Dirigente", "texto": "Senhor, que a meditação das tuas dores e sofrimentos destrua nossa soberba, suavize nossos corações e os prepare para receber teu inesgotável amor e perdão. Que, conscientes das quedas e defeitos, em meio às nossas penas e trabalhos, busquemos sempre a ti, contemplando teu coração aberto e ferido por amor a nós. Que nós possamos mergulhar nele como uma gota de água, que se perde na imensidão da tua misericórdia." },
+        { "quem": "Todos", "texto": "Amém." },
+        { "quem": "Dirigente", "texto": "O Senhor nos abençoe e nos guarde." },
+        { "quem": "Todos", "texto": "Volte para nós o seu rosto e tenha piedade de nós!" },
+        { "quem": "Dirigente", "texto": "Que ele nos mostre o seu rosto." },
+        { "quem": "Todos", "texto": "E nos dê a sua paz, hoje e sempre. Amém!" },
+        { "quem": "Dirigente", "texto": "Abençoe-nos Deus todo-poderoso, em nome do Pai e do Filho e do Espírito Santo." },
+        { "quem": "Todos", "texto": "Amém." }
+      ]
+    }
+  ]
+}

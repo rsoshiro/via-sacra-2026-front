@@ -28,7 +28,7 @@ function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}dist/data/via_sacra.json`)
+    fetch(`${import.meta.env.BASE_URL}data/via_sacra.json`)
       .then(res => res.json())
       .then(data => {
         setData(data);
@@ -107,14 +107,14 @@ function App() {
           {/* NOVO LOGO DISCRETO NO HEADER — fundo roxo para o logo translúcido */}
           <div className={`flex items-center justify-center px-2.5 py-1.5 rounded-lg shrink-0 ${theme === 'dark' ? 'bg-[#2a0a45]' : 'bg-paroquia-purple/55'}`}>
             <img 
-              src={`${import.meta.env.BASE_URL}dist/assets/images/logo-paroquia.webp`} 
+              src={`${import.meta.env.BASE_URL}assets/images/logo_paroquia.webp`} 
               alt="Logo" 
               className="h-9 w-auto object-contain"
               onError={(e) => {
                 const el = e.target as HTMLImageElement;
                 el.style.display = 'none';
                 el.onerror = null;
-                el.src = `${import.meta.env.BASE_URL}dist/assets/images/logo-paroquia.png`;
+                el.src = `${import.meta.env.BASE_URL}assets/images/logo-paroquia.png`;
                 el.style.display = '';
               }}
             />
@@ -144,7 +144,7 @@ function App() {
           <div className="flex flex-col items-center justify-center min-h-full p-6 text-center">
             <div className="w-full max-w-sm">
               <img 
-                src={`${import.meta.env.BASE_URL}dist/${data.metadata.capa_path}`} 
+                src={`${import.meta.env.BASE_URL}${data.metadata.capa_path}`} 
                 alt="Capa Via Sacra" 
                 className="w-full h-auto rounded-2xl shadow-2xl mb-12 border-4 border-white/10 block mx-auto"
               />
@@ -169,7 +169,7 @@ function App() {
             {currentSection.imagem && (
               <div className="mb-10 rounded-2xl overflow-hidden shadow-xl border-2 border-white/10 bg-black/5">
                 <img 
-                  src={`${import.meta.env.BASE_URL}dist/${currentSection.imagem}`} 
+                  src={`${import.meta.env.BASE_URL}${currentSection.imagem}`} 
                   className="w-full h-auto max-h-[65vh] object-contain block mx-auto" 
                   loading="lazy" 
                 />
@@ -222,7 +222,7 @@ function App() {
           <div className="flex flex-col items-center justify-center min-h-full p-8 text-center bg-paroquia-dark/5">
             <div className="w-full max-w-sm py-12">
               <img 
-                src={`${import.meta.env.BASE_URL}dist/${data.metadata.logo_path}`} 
+                src={`${import.meta.env.BASE_URL}${data.metadata.logo_path}`} 
                 alt="Logo Paróquia" 
                 className="w-full h-auto max-h-[40vh] object-contain mb-12 block mx-auto drop-shadow-2xl"
               />
