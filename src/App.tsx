@@ -66,15 +66,25 @@ function App() {
     if (currentIndex > -1) setCurrentIndex(prev => prev - 1);
   };
 
-  const handleTapNavigation = (e: React.MouseEvent<HTMLElement>) => {
+  const handleTapNavigation = (e: React.MouseEvent<HTMLElement> | React.TouchEvent<HTMLElement>) => {
     const target = e.target as HTMLElement;
     if (target.closest('button, a, [role="button"], input')) return;
-    const x = e.clientX;
-    const width = window.innerWidth;
-    const edgeRatio = 0.15;
-    if (x < width * edgeRatio && currentIndex > -1) {
+    const isTouch = 'changedTouches' in e.nativeEvent;
+    const x = isTouch
+      ? (e as React.TouchEvent<HTMLElement>).changedTouches[0]?.clientX
+      : (e as React.MouseEvent<HTMLElement>).clientX;
+    if (typeof x !== 'number') return;
+    if (isTouch) e.preventDefault();
+    const main = e.currentTarget;
+    const rect = main.getBoundingClientRect();
+    const edgeRatio = 0.2;
+    const minZonePx = 44;
+    const zoneWidth = Math.max(rect.width * edgeRatio, minZonePx);
+    const leftZoneEnd = rect.left + zoneWidth;
+    const rightZoneStart = rect.right - zoneWidth;
+    if (x >= rect.left && x <= leftZoneEnd && currentIndex > -1) {
       handlePrev();
-    } else if (x > width * (1 - edgeRatio) && currentIndex < data.secoes.length) {
+    } else if (x >= rightZoneStart && x <= rect.right && currentIndex < data.secoes.length) {
       handleNext();
     }
   };
@@ -150,7 +160,7 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth" onClick={handleTapNavigation}>
+      <main ref={scrollRef} className="flex-1 overflow-y-auto scroll-smooth pointer-events-auto" onClick={handleTapNavigation} onTouchEnd={handleTapNavigation}>
         
         {/* CONTEÚDO DA CAPA */}
         {isCapa && (
