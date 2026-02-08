@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import type { ViaSacraData, Section } from './types';
+import type { ViaSacraData } from './types';
 
 type Theme = 'light' | 'dark';
 
